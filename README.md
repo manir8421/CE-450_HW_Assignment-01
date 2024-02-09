@@ -11,21 +11,21 @@ Q_01: Build up a function to implement the following operation.
     1
     >>> if_function(3>2, 3+2, 3-2)
     5
-=================================================================================================================================
+
 Q_02: Create a function to add odd numbers less equal than numeric input parameter together as follows
 
       >>> sum_odd(6)		#1+3+5
       9
       >>>sum_odd(7)		#1+3+5+7
       16
-===================================================================================================================================
+
 Q_03: Define a function for 4 inputs a, b, c, d, and return sum of square of two smallest number from a, b, c and d, such as
       
       >>> foo(1, 2, 3, 4)		
 		  >>> 5 				# 1^2+ 2^2=5
 		  >>> foo(-3, 1, 5, 6)	
       >>> 10				# 〖(-3)〗^2+ 1^2=10
-===================================================================================================================================
+
 Q_04: Write a function named "df" that takes three integers x, y, and z. It returns whether subtracting one of these numbers from another gives the third.
 
     >>> df(5, 3, 2) # 5 - 3 is 2
@@ -46,7 +46,7 @@ Q_04: Write a function named "df" that takes three integers x, y, and z. It retu
     True
     >>> df(10, 6, 3)
     False
-==================================================================================================================================
+
 Q_05: Create a function that takes an integer m greater than 1 and returns the largest integer smaller than m that evenly divides m.
 
     def  lrgst_factor(m):
@@ -56,7 +56,7 @@ Q_05: Create a function that takes an integer m greater than 1 and returns the l
     5
     >>> lrgst_factor (80) 	# factors are 1, 2, 4, 5, 8, 10, 16, 20, 40
     40
-====================================================================================================================================
+
 Q_06: Define a function which takes in a number n and determines whether the number is a perfect number. A perfect number is equal to the sum of its factors.
       For instance, 6 is a perfect number since 6 = 1 + 2 + 3.
 
@@ -71,7 +71,7 @@ Q_06: Define a function which takes in a number n and determines whether the num
     False
     >>> pfct_num (28)
     True
-=======================================================================================================================================
+
 Q_07: Implement a function to check if the number of bits from two positive input parameters is the same or not.
 
     def    same_ord(a, b):
@@ -83,7 +83,7 @@ Q_07: Implement a function to check if the number of bits from two positive inpu
     False
     >>> same_ord(1000, 100000)		# a is 4 bits; b is 6 bits
     False
-========================================================================================================================================
+
 Q_08: Write a function that takes in a number and determines if the digits contain two adjacent 5s.
 
     def 	double_5(n):
@@ -99,7 +99,7 @@ Q_08: Write a function that takes in a number and determines if the digits conta
     False
     >>> double_5 (50505050)
     False
-========================================================================================================================================
+
 Q_09: Design a function that returns the number of unique digits in a positive integer.
 
     def uniq_digits(x):
@@ -117,7 +117,7 @@ Q_09: Design a function that returns the number of unique digits in a positive i
     2
     >>> uniq_digits (10) 		# 0 and 1
     2
-=========================================================================================================================================
+
 Q_10: Write a def function "amc" with a positive integer "n" input parameter. It returns the smallest amicable number greater than "n".
       Two different numbers are both amicable if the sum of the proper divisors of each is equal to the other. Any number that's part of
       such a pair is an amicable number.
